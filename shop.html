@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food shop</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="../Css/shop.css">
+<script  type="text/javascript" src="../Js/shop.js"></script>
+<link rel="icon" type="image/jpg" href="../Image/images.jpg">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">-->
+</head>
+<body>
+<div class="loading-icon"><div class="loading-gif"></div></div>
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="fa fa-cutlery fa-2x" aria-hidden="true"></span>Restaurant Pronto</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse pull-right">
+          <ul class="nav navbar-nav nav-custom">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#about">CONTACT US</a></li>
+            <li><a href="#contact">WE'RE HIRING</a></li>
+            <li><a href="#"><button type="button" class="main-button">See MENU & Order</button></a></li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<div class="modal fade" id="myModal" role="dialog" data-keyword="false" data-backdrop="static">
+  <div class="setscroll">
+    <div class="modal-header-head">
+      <h4>RESTAURANT PRONTO</h4>
+            <div class="modal-header-links">
+            <a href="#"><img src="../Image/M6ezc.png"></a><a href="#"><img src="../Image/hotel-menu.png"></a><a href="#"><img src="../Image/050-512.png"></a>
+            </div>
+  </div>
+  <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Close ×</span></button>
+    <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+        </div>
+        <div class="modal-body">
+        <div class="menu-big-icon">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="pasta cover">
+                  <h3>Buy pasta get a free dessert</h3>
+                  <button class="get-it get-pasta">Get it now</button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="pizza cover">
+                  <h3>Pizza + Drink Combo</h3>
+                  <button class="get-it">Get it now</button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="cold-drink cover">
+                  <h3>Buy a drink get 2nd free</h3>
+                  <button class="get-it">Get it now</button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="offer cover">
+                  <h3>Buy two get third free</h3>
+                  <button class="get-it">Get it now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+            <div id="add-external"></div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+ <div class="header">
+ 	<div class="head-content">
+     	<h2>Restaurant Pronto</h2>
+     	<h3>ITALIAN FOOD DELIVERY IN NEW YORK</h3>	
+ 	</div>
+ 	<div class="head-bottom">
+ 		<h5><span class="glyphicon glyphicon-chevron-down"></span> We offer Pick-up and Food Delivery <span class="glyphicon glyphicon-chevron-down"></span></h5>
+ 	</div>
+ </div>
+		<div class="order-tag">
+		   		<div class="order-tag-inner">
+            <div class="container-fluid">
+		 			      <div class="row">
+	        	       <div class="col-md-3 visible-md visible-lg arrow arrow-left">&#x21B6</div>
+		        	     <div class="col-md-6">
+        		          <h3>Your order confirmed in REAL-TIME</h3>
+		        		      <a href="#"><button type="button" class="main-button order-tag-button">See MENU & Order</button></a>
+		        	     </div>
+	        	       <div class="col-md-3 visible-md visible-lg arrow">&#x21B7</div>
+		        	     <div class="clearfix"></div>
+    			     	</div>
+    	      </div>
+          </div>
+ 		</div>
+ 	<section class="about"> 
+ 				<h1>About Us</h1>
+ 				<p>At Restaurant Pronto we offer meals of excellent quality and invite you to try our delicious food.</p>
+ 				<p>The key to our success is simple: providing quality consistent food that taste great every single time. We pride ourselves on serving our customers delicious genuine Pizza, Italian, Pasta dishes.</p>
+ 				<p>Eat delicious food. Grab a drink. But most of all, relax! We thank you from the bottom of our hearts for your continued support.</p>
+ 	</section>		
+ 	<section class="food">
+		 		<h1>Our Food</h1>
+        <div class="container">
+		 		<div class="row">
+				<div class="col-md-4 col-sm-3 col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/71c4b127-1daf-453a-9b6d-deeb41239dc4.jpg"></div>
+				<div class="col-md-4 col-sm-3 col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/a80980c4-e461-443d-b66b-8d5f3843f17f.jpg"></div>
+				<div class="col-md-4 col-sm-3 col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/28f1633c-b676-4a08-a02c-d74071dab79b.jpg"></div>
+				<div class="col-md-4 col-sm-3 hidden-xs"><img src="https://dmkz2i5qfmsty.cloudfront.net/eec0c602-b764-41e2-af23-b7decb535b38.jpg"></div>
+				<div class="col-md-4 visible-md visible-lg"><img src="https://dmkz2i5qfmsty.cloudfront.net/1ab5110e-2cfe-4aa7-809e-d6f22cd518a8.jpg"></div>
+				<div class="col-md-4 visible-md visible-lg"><img src="https://dmkz2i5qfmsty.cloudfront.net/2f461faf-ccff-4432-83d2-77429275ab4b.jpg"></div></div>
+ 	</section>
+ 	<section class="openhour">
+ 		      <div class="openhour-outer">
+              <div class="openhout-inner">
+                  <h2>Opening Hours</h2>
+                  <p><span class="pull-left">Monday - Sunday</span><span class="pull-right">12:00 AM - 12:00 AM</span></p>                
+              </div> 
+          </div>
+ 	</section>
+  <section class="our-restau">
+        <h1>Our Restaurant</h1>
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/abf43544-d50b-40c9-a1f4-46d1c4fe1422.jpg"></div>
+        <div class="col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/c176c2d0-eb77-488a-ba46-b20ee413b763.jpg"></div>
+        <div class="col-xs-4"><img src="https://dmkz2i5qfmsty.cloudfront.net/2212373d-c1b7-4398-bd9c-0d00070be729.jpg"></div>
+        </div>
+  </section>
+  <section class="new-online">  
+        <div class="about new-online-detail">
+        <h2><span class="glyphicon glyphicon-comment"></span></h2>
+        <h2>NEW! Online Ordering</h2>
+        <p>Online ordering NOW enabled for pick-up or delivery.Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine.</p> 
+        </div> 
+  </section>
+  <section class="contact-us">
+       <div class="contact-us-main">
+          <h2>Contact Us</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="address">
+                  <i class="fa fa-home" aria-hidden="true"></i><span>Restaurant Pronto</span>
+                </div>
+                <div class="address">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i><span>740 Park Avenue, New York, New York, US</span>
+                </div>  
+                <div class="address">
+                  <i class="fa fa-phone-square" aria-hidden="true"></i><span>08359 424 7894</span>
+                </div>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="UserName" placeholder="Name">
+                <input type="text" name="UserEmail" placeholder="Email">
+                <textarea type="text" name="UserMes" placeholder="Your Message"></textarea>
+                <div class="robot-check">
+                      <label><input type="checkbox" value="">I'm not a robot</label>
+                        <div class="recaptcha">
+                           <img src="../Image/imagesl.jpg"><br>
+                           <a href="#">Privacy</a><a href="#">Terms</a>
+                        </div>
+                </div>
+                <button class="submit">Submit</button>
+              </div>
+            </div>  
+          </div>
+        </div> 
+  </section>
+  <section>
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.7960828902756!2d-73.98459976415968!3d40.72699371594851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d16a571af581047!2sPlease+Don&#39;t+Tell!5e0!3m2!1sen!2sin!4v1486641175896" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+  </section>
+  <section class="social-media">
+      <h1>Social Media</h1>
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></a></i>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></a></i>
+        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></a></i>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></a></i>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></a></i>
+      </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">Listed in:</div>
+          <div class="col-md-9">
+            <a href="#"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcScmkaR-Isfg7Za-aF6K7rjzEPV4lZCOsjJqnNSkphN3wCMRKPMwo7Ksww"></a>
+            <a href="#"><img src="http://imjustcreative.com/wp-content/uploads/2014/07/new-foursquare-logotype-design.jpg"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXc2jbPJugbX95r7yM1owcMyWQSlI9Zjq65MIrBNiVVJ_3lKds"></a>
+            <a href="#"><img src="https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/082011/yelpr-converted.png?itok=quRDD0Oa"></a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="hiring">
+      <h1>We're Hiring</h1>
+      <div class="chef">
+        <h2>Chef</h2>
+        <h6>Posted on June 29, 7:10 AM</h6>
+        <div class="chef-apply">
+            <button class="chef-butt">APPLY</button>
+            <h6>Send an application to</h6>
+            <a href="#">pronto2demo@gmail.com</a>
+        </div>
+        <h3>Job description</h3>
+        <p>At Pronto we maintain a high and consistent standard of food. Our customers are the most important part of our business and we do our best to make sure that their visit will be a pleasant one. We are now recruiting for chefs of all grades</p>
+        <h3>The ideal candidates will be</h3>
+        <ul>
+          <li>HACCP trained</li>
+          <li>Have relevant experience</li>
+          <li>Passionate about creating great food</li>
+          <li>Meticulous about attention to detail and in relation to food service (quality, portion size, presentation and consistency)</li>
+          <li>Be highly motivated and flexible</li>
+          <li>Proactive in important areas such as health and safety and food hygiene</li>
+        </ul>
+        <h3>Salary</h3>
+        <p>Dependent on experience. Very competitive salary for the right candidate</p>
+      </div>
+      <div class="waiter">
+        <h2>Waiter</h2>
+        <h6>Posted on June 29, 7:16 AM</h6>
+        <div class="waiter-apply">
+            <button class="waiter-butt">APPLY</button>
+            <h6>Send an application to</h6>
+            <a href="#">pronto2demo@gmail.com</a>
+        </div>  
+        <h3>Job description</h3>
+        <p>Making guests feel comfortable and welcomed at a restaurant really makes all the difference. It is your responsibility to make each guest feel welcomed and comfortable.</p>
+        <h3>Responsibilities</h3>
+        <ul>
+          <li>Great guests and make them feel comfortable.</li>
+          <li>Learn menu items and be able to describe them appropriately to guests.</li>
+          <li>Take beverage and food orders.</li>
+          <li>Deliver beverages and food in a timely manner.</li>
+          <li>Deliver guest’s bill and thank them for dining at the restaurant.</li>
+        </ul>
+        <h3>Requirements</h3>
+        <ul>
+          <li>Waiters and waitresses must be on their feet for long periods of time.</li>
+          <li>Professional and friendly. (Even in tough situations)</li>
+          <li>Effective communication skills with guests and staff.</li>
+          <li>Basic math skills.</li>
+          <li>Great attention to detail.</li>
+        </ul>
+      </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="footer-head">
+        <button class="main-button foot">See MENU & Order</button>
+        <ul class="footer-first-ul">
+            <li>
+            <div class="btn-group">
+            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><i class="fa fa-globe" aria-hidden="true"></i> English <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">Iteliano</a></li>
+                <li><a href="#">Romana</a></li>
+            </ul>
+            </div>
+            </li>
+            <li>Privacy policy</li>
+            <li>Terms of service</li>
+            <li>Menu</li>
+        </ul>
+      </div>
+      <ul>
+        <li>Pizza New York Upper East Side</li>
+        <li>Pizza New York Central Park</li>
+        <li>Pizza New York Lenox Hill</li>
+        <li>Pizza New York Yorkville</li>
+        <li>Pizza New York Upper West Side</li>
+        <li>Pizza New York Midtown East</li>
+        <li>Pizza New York Midtown</li>
+        <li>Pizza New York Carnegie Hill</li>
+        <li>Pizza New York Lincoln Square</li>
+        <li>Pizza New York East Harlem</li>
+        <li>Pizza New York Bloomingdale</li>
+        <li>Pizza New York Hell's Kitchen</li>
+        <li>Pizza New York Harlem</li>
+        <li>Pizza New York Upper Manhattan</li>
+        <li>Pizza New York Morningside Heights</li>
+        <li>Pizza New York Manhattan</li>
+        <li>Pizza New York</li>
+      </ul>
+      <div class="clear"></div>
+      <hr>
+      <h3>Supported by:</h3>
+      <h4>our real-time ordering system. We confirm your order instantly.</h4>
+    </div>  
+  </footer>
+</body>
